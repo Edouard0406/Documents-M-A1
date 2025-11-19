@@ -77,47 +77,46 @@
 
     <!-- Menu -->
     <div class="navbar">
-        <a onclick="openTab('OnePager')">OnePager</a>
-        <a onclick="openTab('Investment Analysis')">Investment Analysis</a>
-        <a onclick="openTab('Valuation')">Investment Analysis</a>
+        <a onclick="openTab('onepagers')">OnePagers</a>
+        <a onclick="openTab('investment')">Investment Analysis</a>
+        <a onclick="openTab('valuation')">Valuation Report</a>
     </div>
 
-    <!-- Onglet 1 -->
-    <div id="OnePager" class="tab">
-        <h2>OnePager</h2>
-        <p>Some of my works :</p>
+    <!-- Onglet 1 : OnePagers -->
+    <div id="onepagers" class="tab">
+        <h2>OnePagers</h2>
+        <p>Mes one-pagers et présentations synthétiques :</p>
 
         <ul>
-    <li><a class="pdf-link" href="pitchbooks/TotalEnergies_OnePager.pdf" target="_blank">Pitchbook – TotalEnergies</a></li>
-        </ul>
-
-    </div>
-
-    <!-- Onglet 2 -->
-    <div id="modeles" class="tab">
-        <h2>Modèles Financiers</h2>
-        <p>DCF, LBO, Comps, Merger Model…</p>
-
-        <ul>
-            <li><a class="pdf-link" href="modeles/model_lbo.pdf" target="_blank">Modèle LBO</a></li>
-            <li><a class="pdf-link" href="modeles/model_dcf.pdf" target="_blank">Modèle DCF</a></li>
+            <li><a class="pdf-link" href="pitchbooks/TotalEnergies_OnePager.pdf" target="_blank">OnePager – TotalEnergies</a></li>
         </ul>
     </div>
 
-    <!-- Onglet 3 -->
-    <div id="projets" class="tab">
-        <h2>Analyses & Projets</h2>
-        <p>Mes notes, analyses et documents :</p>
+    <!-- Onglet 2 : Investment Analysis -->
+    <div id="investment" class="tab">
+        <h2>Investment Analysis</h2>
+        <p>Analyses financières et stratégiques :</p>
 
         <ul>
-            <li><a class="pdf-link" href="projets/analyse1.pdf" target="_blank">Analyse Projet 1</a></li>
-            <li><a class="pdf-link" href="projets/analyse2.pdf" target="_blank">Analyse Projet 2</a></li>
+            <li><a class="pdf-link" href="modeles/model_lbo.pdf" target="_blank">LBO Model</a></li>
+            <li><a class="pdf-link" href="modeles/model_dcf.pdf" target="_blank">DCF Model</a></li>
+        </ul>
+    </div>
+
+    <!-- Onglet 3 : Valuation Report -->
+    <div id="valuation" class="tab">
+        <h2>Valuation Reports</h2>
+        <p>Rapports de valorisation réalisés :</p>
+
+        <ul>
+            <li><a class="pdf-link" href="projets/analyse1.pdf" target="_blank">Valuation Report 1</a></li>
+            <li><a class="pdf-link" href="projets/analyse2.pdf" target="_blank">Valuation Report 2</a></li>
         </ul>
     </div>
 
     <!-- Onglet par défaut -->
     <script>
-        openTab('pitchbooks');
+        openTab('onepagers');
     </script>
 
 </body>
